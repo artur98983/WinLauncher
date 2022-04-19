@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 417
-  Top = 188
+  Left = 525
+  Top = 220
   Width = 738
   Height = 545
   Hint = 'aaaa'
@@ -68,6 +68,22 @@ object Form1: TForm1
       Height = 25
       Caption = 'Wi-Fi pass'
       TabOrder = 0
+    end
+    object Button25: TButton
+      Left = 88
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'User Pass'
+      TabOrder = 1
+    end
+    object Button26: TButton
+      Left = 168
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'Browser Pass'
+      TabOrder = 2
     end
   end
   object GroupBox3: TGroupBox
@@ -158,6 +174,30 @@ object Form1: TForm1
       Caption = 'Network'
       TabOrder = 9
     end
+    object Button23: TButton
+      Left = 88
+      Top = 112
+      Width = 75
+      Height = 25
+      Caption = 'Explorer'
+      TabOrder = 10
+    end
+    object Button24: TButton
+      Left = 168
+      Top = 112
+      Width = 75
+      Height = 25
+      Caption = 'Run'
+      TabOrder = 11
+    end
+    object Button27: TButton
+      Left = 8
+      Top = 144
+      Width = 75
+      Height = 25
+      Caption = 'Market'
+      TabOrder = 12
+    end
   end
   object GroupBox4: TGroupBox
     Left = 8
@@ -233,6 +273,7 @@ object Form1: TForm1
       Height = 25
       Caption = 'About'
       TabOrder = 0
+      OnClick = Button11Click
     end
     object Button12: TButton
       Left = 88
@@ -265,6 +306,14 @@ object Form1: TForm1
       Height = 25
       Caption = 'Portable Soft'
       TabOrder = 4
+    end
+    object Button22: TButton
+      Left = 88
+      Top = 88
+      Width = 65
+      Height = 25
+      Caption = 'Old'
+      TabOrder = 5
     end
   end
 end

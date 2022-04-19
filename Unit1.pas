@@ -40,6 +40,13 @@ type
     Button19: TButton;
     Button20: TButton;
     Button21: TButton;
+    Button22: TButton;
+    Button23: TButton;
+    Button24: TButton;
+    Button25: TButton;
+    Button26: TButton;
+    Button27: TButton;
+    procedure Button11Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -51,6 +58,13 @@ var
 
 implementation
 
+uses Unit2;
+
 {$R *.dfm}
+
+procedure TForm1.Button11Click(Sender: TObject);
+begin
+Form2.show
+end;
 
 end.
