@@ -1,8 +1,8 @@
 object Form1: TForm1
   Left = 417
   Top = 188
-  Width = 741
-  Height = 568
+  Width = 738
+  Height = 545
   Hint = 'aaaa'
   Caption = 'WinLauncher'
   Color = clBtnFace
@@ -17,16 +17,16 @@ object Form1: TForm1
   object GroupBox1: TGroupBox
     Left = 8
     Top = 8
-    Width = 289
+    Width = 281
     Height = 321
-    Caption = #1055#1072#1090#1095#1080
+    Caption = 'Patch'
     TabOrder = 0
     object Button4: TButton
       Left = 8
       Top = 16
-      Width = 153
+      Width = 129
       Height = 25
-      Caption = #1057#1090#1088#1077#1083#1082#1080' '#1103#1088#1083#1099#1082#1086#1074
+      Caption = 'UTorrent'
       TabOrder = 0
     end
     object Button5: TButton
@@ -34,7 +34,7 @@ object Form1: TForm1
       Top = 48
       Width = 75
       Height = 25
-      Caption = 'Button5'
+      Caption = 'Off autoload'
       TabOrder = 1
     end
     object Button6: TButton
@@ -46,29 +46,37 @@ object Form1: TForm1
       TabOrder = 2
     end
     object Button7: TButton
-      Left = 8
-      Top = 80
-      Width = 153
+      Left = 144
+      Top = 16
+      Width = 129
       Height = 25
-      Caption = #1055#1077#1088#1089#1086#1085#1072#1083#1080#1079#1072#1094#1080#1103' Win7'
+      Caption = 'Label Arrows'
       TabOrder = 3
     end
   end
   object GroupBox2: TGroupBox
-    Left = 304
+    Left = 296
     Top = 8
     Width = 249
     Height = 105
-    Caption = #1058#1074#1080#1082#1080
+    Caption = 'Functions'
     TabOrder = 1
+    object Button19: TButton
+      Left = 8
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'Wi-Fi pass'
+      TabOrder = 0
+    end
   end
   object GroupBox3: TGroupBox
-    Left = 304
+    Left = 296
     Top = 120
     Width = 249
     Height = 209
-    Hint = #1072#1072#1072#1072#1072
-    Caption = #1054#1089#1085#1086#1074#1085#1099#1077' '#1089#1083#1091#1078#1073#1099
+    Hint = '?????'
+    Caption = 'Execute'
     TabOrder = 2
     object Button1: TButton
       Left = 8
@@ -99,7 +107,7 @@ object Form1: TForm1
       Top = 48
       Width = 75
       Height = 25
-      Caption = #1054#1095#1080#1089#1090#1082#1072
+      Caption = 'cmd'
       TabOrder = 3
     end
     object Button9: TButton
@@ -107,7 +115,7 @@ object Form1: TForm1
       Top = 48
       Width = 75
       Height = 25
-      Caption = #1056#1077#1077#1089#1090#1088
+      Caption = 'PShell'
       TabOrder = 4
     end
     object Button10: TButton
@@ -115,16 +123,148 @@ object Form1: TForm1
       Top = 48
       Width = 75
       Height = 25
-      Caption = #1059#1089#1090#1088#1086#1081#1089#1090#1074#1072
+      Caption = 'TaskM'
       TabOrder = 5
+    end
+    object Button15: TButton
+      Left = 8
+      Top = 80
+      Width = 75
+      Height = 25
+      Caption = 'Power'
+      TabOrder = 6
+    end
+    object Button16: TButton
+      Left = 88
+      Top = 80
+      Width = 75
+      Height = 25
+      Caption = 'Event'
+      TabOrder = 7
+    end
+    object Button17: TButton
+      Left = 168
+      Top = 80
+      Width = 75
+      Height = 25
+      Caption = 'Device'
+      TabOrder = 8
+    end
+    object Button18: TButton
+      Left = 8
+      Top = 112
+      Width = 75
+      Height = 25
+      Caption = 'Network'
+      TabOrder = 9
     end
   end
   object GroupBox4: TGroupBox
     Left = 8
     Top = 336
-    Width = 185
-    Height = 105
-    Caption = #1057#1086#1092#1090' '#1092#1083#1077#1096#1082#1080
+    Width = 537
+    Height = 161
+    Caption = 'SystemInfo'
     TabOrder = 3
+    object Label1: TLabel
+      Left = 8
+      Top = 16
+      Width = 25
+      Height = 13
+      Caption = 'CPU:'
+    end
+    object Label2: TLabel
+      Left = 8
+      Top = 32
+      Width = 26
+      Height = 13
+      Caption = 'GPU:'
+    end
+    object Label3: TLabel
+      Left = 8
+      Top = 48
+      Width = 19
+      Height = 13
+      Caption = 'MB:'
+    end
+    object Label4: TLabel
+      Left = 8
+      Top = 64
+      Width = 38
+      Height = 13
+      Caption = 'WinVer:'
+    end
+    object Button13: TButton
+      Left = 456
+      Top = 128
+      Width = 75
+      Height = 25
+      Caption = 'Send info'
+      TabOrder = 0
+    end
+  end
+  object GroupBox5: TGroupBox
+    Left = 552
+    Top = 8
+    Width = 161
+    Height = 321
+    Caption = 'Switches'
+    TabOrder = 4
+    object CheckBox1: TCheckBox
+      Left = 8
+      Top = 16
+      Width = 97
+      Height = 17
+      Caption = 'AdmRights'
+      TabOrder = 0
+    end
+  end
+  object GroupBox6: TGroupBox
+    Left = 552
+    Top = 336
+    Width = 161
+    Height = 161
+    Caption = 'Other'
+    TabOrder = 5
+    object Button11: TButton
+      Left = 8
+      Top = 24
+      Width = 73
+      Height = 25
+      Caption = 'About'
+      TabOrder = 0
+    end
+    object Button12: TButton
+      Left = 88
+      Top = 24
+      Width = 65
+      Height = 25
+      Caption = 'Download'
+      TabOrder = 1
+    end
+    object Button14: TButton
+      Left = 8
+      Top = 56
+      Width = 73
+      Height = 25
+      Caption = 'Setting'
+      TabOrder = 2
+    end
+    object Button20: TButton
+      Left = 88
+      Top = 56
+      Width = 65
+      Height = 25
+      Caption = 'Logger'
+      TabOrder = 3
+    end
+    object Button21: TButton
+      Left = 8
+      Top = 88
+      Width = 73
+      Height = 25
+      Caption = 'Portable Soft'
+      TabOrder = 4
+    end
   end
 end

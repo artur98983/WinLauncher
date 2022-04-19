@@ -22,6 +22,24 @@ type
     Button8: TButton;
     Button9: TButton;
     Button10: TButton;
+    GroupBox5: TGroupBox;
+    CheckBox1: TCheckBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    GroupBox6: TGroupBox;
+    Button11: TButton;
+    Button12: TButton;
+    Button13: TButton;
+    Button14: TButton;
+    Button15: TButton;
+    Button16: TButton;
+    Button17: TButton;
+    Button18: TButton;
+    Button19: TButton;
+    Button20: TButton;
+    Button21: TButton;
   private
     { Private declarations }
   public
