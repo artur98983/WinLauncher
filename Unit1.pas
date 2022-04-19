@@ -46,6 +46,7 @@ type
     Button25: TButton;
     Button26: TButton;
     Button27: TButton;
+    Button28: TButton;
     procedure Button11Click(Sender: TObject);
   private
     { Private declarations }
