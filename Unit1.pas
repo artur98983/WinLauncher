@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls;
+  Dialogs, StdCtrls, ShellApi;
 
 type
   TForm1 = class(TForm)
@@ -48,6 +48,7 @@ type
     Button27: TButton;
     Button28: TButton;
     procedure Button11Click(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -66,6 +67,11 @@ uses Unit2;
 procedure TForm1.Button11Click(Sender: TObject);
 begin
 Form2.show
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+ShellExecute(Handle, nil, 'C:\Windows\System32\msconfig.exe', nil, nil, SW_SHOW);
 end;
 
 end.

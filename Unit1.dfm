@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 455
-  Top = 232
+  Left = 270
+  Top = 110
   Width = 738
   Height = 545
   Hint = 'aaaa'
@@ -109,6 +109,7 @@ object Form1: TForm1
       Height = 25
       Caption = 'msconfig'
       TabOrder = 0
+      OnClick = Button1Click
     end
     object Button2: TButton
       Left = 88
