@@ -71,7 +71,7 @@ end;
 
 procedure TForm1.Button1Click(Sender: TObject);
 begin
-ShellExecute(Handle, nil, 'c:\windows\system32\msconfig.exe', nil, nil, SW_SHOW);
+WinExec('msconfig.exe', SW_SHOW);
 end;
 
 end.

@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 270
-  Top = 110
+  Left = 352
+  Top = 65
   Width = 738
   Height = 545
   Hint = 'aaaa'
